@@ -1,0 +1,8 @@
+Day6:
+what is datalist used for: Datalist is used to create auto given value into input.
+
+min: is shows the min value in a input.
+max: is shows the max value in a innput.
+maxLength:shows the maximum value in a input
+
+iframe:is used to create a frame into a website.
