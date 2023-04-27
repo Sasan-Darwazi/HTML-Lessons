@@ -1,0 +1,54 @@
+DropDownList:In HTML is an important element for form building purpose or for shwoing the selection list from which the user can select one or multiple values.
+.It creates using <select> tag with <option> value.
+
+name att: The name attributes is needed to reference the form data after the form is submitted.
+
+id att: The id attribute is neede to associate the drop-down list with a label.
+
+label: always add the <label> tag for the best accessibility practices!
+
+Syntax:
+<select>
+<option>Option 1</option>
+<option>Option 2</option>
+<option>Option 3</option>
+</select>
+
+
+OptGroup:The <optgroup> tag is used to group related options in a <select> element (drop-down List).
+if you have a long list of options, groups of related options are easier to handle for a user.
+
+
+What is MultiMedia?
+Multimeda comes in many different formats. It can be almost anything you can hear or see, like image, music, sound, video, record, films, animations, and more.
+
+Browser Support:
+The first web browsers had support for text only, limited to a single font in single color.
+Later came browsers with support for colors, fonts,images, and multimeda.
+
+Mulfimedia Formats:
+Multimeda elements (like audio or video) are stored in media files.
+The most coomon way to discover the type of a file, is to look at the file extension.
+Multimedia files have formats and different extensions like: .wav, .mp3, .mp4, .mpg, .wmv, and .avi.
+
+
+Video:To show a video in HTML, use the <Video> elements.
+
+How it Works?
+controls:The controls attribute adds video controls, like play, pause, and volume.
+.we can also use width and height attributes.
+source: The <source> element allows you to specify alternative video files which the browsers may choose form.
+
+.To start video automatically, use the autoplay attributes.
+
+Audio:to Add audio in your webpage, use audio elements.
+.audio has the same thing which video has.
+
+
+Cascading Style Sheets(CSS):This scripting language allows you to design the content on your webpage, it's responsible for text, styling, colors, fonts, and so on.
+
+Selectors:
+We have three Selectors:
+1.by tag name
+2.by id attributes
+3.by class name

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio/Video</title>
+</head>
+<body>
+    
+    <!-- <video width="600" height="300"  controls autoplay muted>
+        <source src="Farukh.mp4" type/mp4>
+
+    </video> -->
+
+
+
+    <!-- Example with JavaScript -->
+
+
+<div>
+    <button onclick="playPause()">Play/Pause</button>
+    <button  onclick="big()">Big</button>
+    <button onclick="small()">Small</button>
+    <button onclick="noraml()">Normal</button>
+    <br>
+    <br>
+    <video id="video1" controls>
+        <source src="Farukh.mp4" type/mp4>
+
+    </video>
+</div>
+    <script>
+
+        var video = document.getElementById("video1")
+
+        function playPause() { 
+  if (video.paused) 
+    video.play(); 
+  else 
+    video.pause(); 
+} 
+
+        function big(){
+            video.width = 600;
+            video.height = 400;
+           
+        }
+
+
+        function small(){
+            video.width = 250;
+            video.height = 150;
+          
+        }
+
+
+        function noraml(){
+            video.width =  500;
+            video.height = 350
+          
+        }
+
+
+        
+    </script>
+</body>
+</html>
