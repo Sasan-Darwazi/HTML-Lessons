@@ -1,0 +1,15 @@
+<stron></strong>: Strong tag is same tag as <bold> tag,but the differences is,it's semantic tag.
+
+<em>is semantic tag versus italic.
+
+<sub></sub>:used for h2o: 
+
+<sup></sup>used for jazr-muraba
+
+<blackquote>:The HTML blackquote element defines a section that is quoted from another source.
+
+<q>is used form quotition.
+
+<code>is used for another programming language code.
+
+<div>:The <div> tag defines a division or a section in an HTML document.
