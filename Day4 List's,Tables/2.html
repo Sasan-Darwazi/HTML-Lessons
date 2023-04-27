@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        table, th, td{
+         border: 1px solid black;
+         /* border-collapse: collapse; */
+         
+        }
+
+        table {
+           border-spacing: 15px;;
+        }
+        th, td {
+            text-align:center;
+            
+        }
+
+
+
+        #tab, th, td {
+            border: black 1px solid;
+            border-collapse: collapse;
+        }
+
+        #tab{
+            width: 80%;
+            margin: 50px 100px;
+            
+        }
+
+
+        th, td {
+            padding: 10px;
+            text-align: left;;
+        }
+
+
+        #row, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: 50px 100px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Table -->
+
+    <table style="width:100%">
+        <tr>
+            <th>Firstname</th>
+            <th>LastName</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Ahmad  </td>
+            <td>Noori</td>
+            <td>25</td>
+        </tr>
+
+        <tr>
+            <td>Jawas</td>
+            <td>Nabi</td>
+            <td>25</td>
+        </tr>
+    </table>
+
+<table id="tab">
+    <tr>
+        <th>Name</th>
+        <th>LastName</th>
+        <th colspan="2">PhoneNo</th>
+        
+    </tr>
+
+
+    <tr>
+        <td>Ahmad</td>
+        <td>Nadiri</td>
+        <td>1234567890</td>
+        <td>1234567890</td>
+
+    </tr>
+
+    <tr>
+        <td>Jamil</td>
+        <td>Jaihoon</td>
+        <td>24567890</td>
+    </tr>
+</table>
+
+
+
+<!-- 
+Rowspan
+ -->
+
+
+ <table style="width: 80%" id="row">
+    <tr>
+        <th>Name</th>
+      <td>Ahmad</td>
+        
+        
+    </tr>
+    <tr>
+        <th>LastName</th>
+        <td>Ahmadi</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">PhoneNo</th>
+        <td>1234567890</td>
+    </tr>
+
+    <tr>
+        <td>234567890</td>
+    </tr>
+
+ </table>
+</body>
+</html>

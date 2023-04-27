@@ -1,0 +1,28 @@
+Unordered List:it has four properties:
+.list-style-type: circle;
+.list-style-type: disc;
+.list-style-type: square;
+.list-style-type: none;
+
+Ordered List: it has Five Properties:
+.Type: 1;
+.Type: A;
+.Type: a;
+.Type: I;
+.Type: i;
+
+
+Description List:A description list is a list of terms, with a description of each term.
+
+The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:
+
+
+Table:Table is used for creating table on your Web-Page:
+<tr>shows the table row.
+<th>shows the table heading.
+<td>shows the table data.
+
+Border-Spacing: determines space between the cells
+
+colspan: it creates cell span more then one columns, by the colspan attribute.
+rowspan: it creates cell span more than one row, by the rowspan attributes.

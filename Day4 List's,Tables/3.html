@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+      
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      th, td {
+        text-align:left;
+        padding: 10px;
+      }
+
+      #tab th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      th, td {
+        padding: 10px;
+      }
+
+
+      #saving, th , td {
+        border: #727070 1px solid;
+        border-collapse: collapse;;
+      }
+      #saving {
+        margin:  50px 0;
+        background-color:#f1f1c1;
+      }
+
+      th, td {
+        padding: 10px;
+        text-align: left;;
+      }
+    </style>
+</head>
+<body>
+    
+
+    <table style="width: 100%">
+     <tr>
+        <th>Name</th>
+        <th colspan="3">Telephone</th>
+     </tr>
+    
+     <tr>
+        <td>Nadir</td>
+        <td>123456789   </td>
+        <td>123456789</td>
+        <td>123455669</td>
+     </tr>
+    </table>
+
+
+    <table id="tab" style="width: 80%;">
+        <tr>
+            <th>Name</th>
+            <td>Nadir</td>
+
+        </tr>
+        <tr>
+<th rowspan="2">Telephone</th>
+<td>1234567790</td>
+</tr>
+
+    <tr>
+        <td>1234456789</td>
+    
+
+        </tr>
+    </table>
+
+
+    <table style="width: 100%" id="saving">
+        <caption>Monthly Saving</caption>
+        <tr>
+            <th>Month </th>
+            <th>Savings</th>
+            <th colspan="2">Name</th>
+        
+        </tr>
+       
+
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+            <td>AHmad</td>
+            
+        </tr>
+
+        <tr>
+            <td>February</td>
+            <td>$50</td>
+            <td>Nadir</td>
+        </tr>
+
+        
+    </table>
+</body>
+</html>
