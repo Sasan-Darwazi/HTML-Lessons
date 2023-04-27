@@ -1,0 +1,33 @@
+Bookmark:Bookmarks can be useful if a web page is very long.
+To create bookmark first create the bookmark, then add a link to it.
+
+Link: is used to link to another source.
+Target:Target attribute specifies where to open the linked document.
+Blank: Opens a links document in a new window or lab.
+Self: Opens the linked document in the same window/tab as it was clicked.
+Parent: Opent the linked document in the parent frame.
+Top:Opent the linked document in the full body of the window.
+
+List:used to make a list inside your HTML page.
+OL: Ordered list:
+Ul: Unordered List:
+
+
+Block and Inline Elements.
+
+Block:A block-level element always start on a new line, and the browsers automatically add some space (a margin) before and after the element.
+Or, A block-level elemtn always takes up the full width available.
+
+Two commonly used block elements are: <p> and <div>
+
+Here are the Block-level elements in HTML:
+<address> <article> <aside> <blockquote> <canvas> <dd> <div> <dl> <dt> <fieldset> <figcaption> <figure> <footer> <form> <h1>-<h6> <header> <hr> <li> <main> <nav> <noscript> <ol> <p> <pre> <section> <table> <tfoot> <ul> <video>
+
+
+Inline Elements:An inline elements does not start on a new line.
+An inline element only takes up as much width as necessary.
+
+For eX: span is the most common inline elements.
+Here are the inline Elements:
+
+<a> <abbr> <acronym> <b>, <br>, <button>, <cite>, <code>, <input>, <map>, <lable>, <img>.
