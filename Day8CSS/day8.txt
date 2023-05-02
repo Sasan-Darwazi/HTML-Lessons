@@ -1,0 +1,33 @@
+Day8:
+Coloring:
+we have four types of colors in css;
+.RGB(Red Green Blue)
+.HEX (Hexa decemal)
+.HSL
+.RGBA(Red Green Blue)
+.HSLA
+
+E.G:
+rgb(255,99,71)
+
+Hex: #ff6247
+
+HSL (9, 100%, 64%)
+
+Rgba (255,99,71,0.5)
+
+HSLA (9, 100%, 64%, 0.5);
+
+
+Border:we have forth side for borders direstions and stylings.
+.border-top
+.border-bottom
+.border-right
+.border.left
+
+Background-image using CSS:
+backround-image: url("name of the photo");
+.we have three types of repeat in css image
+.repeat-x
+.repeat-y
+.no-repeat

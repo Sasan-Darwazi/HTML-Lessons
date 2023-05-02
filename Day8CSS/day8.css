@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+
+    padding:0;
+    margin:0;
+}
+
+
+p{
+    width: 100%;
+    height: 100%;
+ 
+    border: #313142 solid 1px;
+    border-top: #4ecfc9 solid 2px;
+    font-size: 16px;
+    margin: 20px 100px;
+    background-color: #313131;
+    /* color:#ffffff; */
+    /* color: rgb(299,9,71); */
+    color: rgba(255,0,0,0.2);
+    font-weight: 500;
+    opacity: 0.9;
+    border-radius: 10px;;
+
+}
+
+
+p {
+    /* background-image: url("tipcalculator.png"); */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    /* background-position: left; */
+    background-position: right-top;;
+    background:#ff0000 url('tipcalculator.png') no-repeat right top;
+    
+
+   
+
+}
