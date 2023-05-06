@@ -1,0 +1,27 @@
+Day9:
+Borders: it's used to give borders to a content.
+border-style:
+.solid
+.dotted
+.double
+.dashed
+.groove: it's give a style to the border like furrow
+.ridge: it give's a style only for the ridge of the border.
+.inset: it give's a style to the border only for upper side of the border.
+.outset:it give's a style to the border only for lower side of the border.
+
+
+Margin:The CSS margin properties are used to create space around elements, outside of any defined border's.
+.margin-left:
+.margin.-right:
+.margin-top:
+.margin-bottom:
+
+margin:100px; it consists all the area, it means top,right,bottom,left.
+
+margin:100px 200px; it consists top,bottm and right,left.
+
+margin: 100px 200px 100px; it consits' top, right,left, bottom;
+
+
+padding: padding CSS elemets are used to create space between the border. it means it's used to separete the content from the border.
