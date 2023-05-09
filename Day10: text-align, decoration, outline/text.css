@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+
+}
+
+h1{
+    margin:10px;
+    border: 3px solid gray;
+
+    /* text-align: center */
+    /* text-align: right;; */
+    /* text-align: left;; */
+    text-align: justify;
+    letter-spacing: 2px;;
+
+    /* text-shadow: horizontal vertical color;; */
+    /* text-shadow: 2px 3px rgba(0,0,0,0.3); */
+    /* text-shadow: 15px 5px 15px rgba(0,0,0,0.6); */
+    /* text-shadow: 2px 1px 2px red, 0 0 2px blue; */
+}
+
+
+
+p{
+    text-align: justify;
+    text-transform: uppercase;
+    text-indent: 10px;;
+}
+
+a {
+    position: relative;
+    top:100px;
+    margin:10px;
+    padding:60px;
+    /* text-decoration: none;; */
+    font-size: 20px;
+    color:gray;
+    /* text-decoration: overline; */
+    text-decoration:line-through;
+    outline: thick solid blue;
+    
+}

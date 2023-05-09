@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+
+
+.item{
+    margin: 20px;
+    border: 2px solid red;
+    outline: solid blue;
+    outline-offset: 10px;
+    outline-color: rgba(12, 12, 18, 0.1);
+    outline: thick dashed green;
+    /* outline:thin dotted blue; */
+    
+    /* outline: 5px dotted blue;; */
+    
+    /* outline-width: 10px; */
+    /* outline-style: dashed; */
+    /* outline-color: rgba(101, 101, 110, 0.5);
+    outline-width: px;;
+    outline-offset:10px; */
+}
