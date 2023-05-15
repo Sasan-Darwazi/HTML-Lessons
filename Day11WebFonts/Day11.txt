@@ -1,0 +1,20 @@
+Web-Safe Fonts:
+.Arial(sans-serif)
+.Times New Roman (serif)
+.Tahoma (sans-serif)
+.Courier New (monospace)
+.(Georgia (serif)
+
+
+How to use Google Fonts
+copy the link either in css or html and follow the rule on css.
+
+
+What is VW?
+The full form of VW is viewport width. it works like the percentage unit. Specifying 10VW is equivalent to occupying 10% of entire visible screen width.
+
+what is font-variant:
+The font-variant CSS shorthand property. allow you to set all the font variants for a font.
+
+.font-shorthand:
+font:italic bold arial,serif;

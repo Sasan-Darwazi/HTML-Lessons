@@ -1,0 +1,39 @@
+/* <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> */
+
+
+
+
+*
+ {
+
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+h1 {
+    font-family:'Times New Roman', Times, serif
+}
+
+h3{
+    font-family: "arial";
+}
+
+p {
+    /* font-family:'Noto Sons Mono',monospace; */
+    /* font: italic bold Arial,serif; */
+    font: 4vw Times New Roman;
+}
+
+#lorem{
+    font-family:'Pacifico',cursive;
+    font-size: 5vw;
+    font-weight: normal;
+    /* or bold */
+    font-style: oblique;
+    /* or italice,normal */
+    /* font-variant: no-common-ligatures proportional-nums; */
+    font-variant: common-ligatures tabular-nums;
+    /* small-cops; */
+}
