@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+
+div{
+    display: inline;
+    background-color: beige;
+    font-size: 2.2em;
+    outline: 2px pink inset;
+    
+    margin:20px;
+}
