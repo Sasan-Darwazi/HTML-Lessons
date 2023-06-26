@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.items{
+   margin:10px;
+   border: 2px solid red;;
+   width: 300px;;
+   float: right;;
+
+}
+
+div.items img{
+    width: 100%;
+    height: auto;
+}
+
+div.firstdiv {
+    padding:10px 20px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+
+div.seconddiv {
+    padding:10px 20px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 500;
+
+}
+
+a {
+    text-decoration: none;
+    
+}
