@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+
+    <style>
+        table{
+            width:100%;
+
+        }
+
+
+        table , th, td{
+            border:2px inset pink;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding:12px;
+            margin:10px;
+            color:aliceblue;
+            font-size:1.2em;
+        }
+
+        th{
+            background-color:black;
+            color:white;
+           
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        table tr:nth-child(odd){
+
+            background-color: cadetblue;
+        }
+
+        table tr:nth-child(even){
+            background-color: darkcyan;
+        }
+        #tbl{
+            margin:10px auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Lastname</th>
+            <th>Phone</th>
+            <th colspan="2">Address</th>
+        </tr>
+
+        <tr>
+            <td>Jamil</td>
+            <td>Ghafoori</td>
+            <td>0123456789</td>
+            <td>Kabul</td>
+            <td>Bamyan</td>
+        </tr>
+
+        <tr>
+            <td>Jaber</td>
+            <td>Noori</td>
+            <td>023456789</td>
+            <td>Samangan</td>
+            <td>Balkh</td>
+        </tr><tr>
+            <td>Sama</td>
+            <td>Maryam</td>
+            <td>023456789</td>
+            <td>Qargha</td>
+            <td>Paghman</td>
+        </tr><tr>
+            <td>Kabir</td>
+            <td>Baraky</td>
+            <td>023456789</td>
+            <td>Kapisa</td>
+            <td>Parwan</td>
+        </tr>
+    </table>
+
+
+
+    <table id="tbl">
+        <tr>
+            <th>Name</th>
+            <td>Nadir</td>
+            <td>Ahmad</td>
+           
+            
+        </tr>
+        <tr>
+            <th>Lastname</th>
+        <td>Nazelpoor</td>
+        <td>Ahmadi</td>
+        </tr>
+       <tr>
+        <th>Phone</th>
+        <td>0123456789</td>
+        <td>0123456789</td>
+       </tr>
+
+        <tr>
+            
+        <th rowspan="2">Address</th>
+        <td>Kabul</td>
+        <td>JalalAbad</td>
+        </tr>
+
+        <tr>
+            <td>Bamyan</td>
+            <td>Kunar</td>
+        </tr>
+    </table>
+</body>
+</html>
