@@ -1,0 +1,18 @@
+Day5:Form: is used to create form.
+Types of forms.
+<input type="text">
+<input type="Password">
+<input type="color">
+<input type="date">
+<input type="button">
+<input type="email">
+<input type="number">
+<input type="file">
+
+
+
+ Attributes without values:
+.Readonly
+.autfocus
+.require
+.disabled
