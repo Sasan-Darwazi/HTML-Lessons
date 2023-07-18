@@ -1,0 +1,16 @@
+
+
+h1{
+    /* border:1px solid black; */
+    /* border-style:dotted; */
+    /* border-style:double; */
+    /* border-style:dashed */
+    /* border:4px groove crimson; */
+    /* border:4px inset crimson; */
+    /* border:3px outset crimson; */
+    border:3px ridge pink;
+    margin:10px;
+    padding:10px;
+}
+
+
