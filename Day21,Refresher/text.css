@@ -1,0 +1,28 @@
+
+
+p{
+    /* text-align:we have four properties for text-aling's
+    .text-align:color
+    .text-align:left
+    .text-align:right: ;
+    .text-align:justify */
+
+    text-align: justify;
+    font-size: 1.2em;
+
+    letter-spacing: 2px;;
+    text-shadow: 1px 1px rgba(0,0,0,0.3);
+    text-indent: 10px;;
+}
+
+a {
+    text-decoration: none;
+    padding:10px;
+    color:crimson;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    border:2px double;
+    border-radius: 15px;;
+
+}

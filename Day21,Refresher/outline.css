@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.item{
+    margin:10px;
+    padding:10px;
+    border:1px solid black;
+    /* outline:solid blue; */
+    /* outline:dotted ; */
+    /* outline:dashed pink; */
+    outline: 2px double ;
+    /* outline:2px thin pink; */
+    /* outline:thick pink; */
+    outline-color:rgba(0,0,255,0.5);
+    outline-width: 5px;;
+    outline-offset: 5px;;
+}
