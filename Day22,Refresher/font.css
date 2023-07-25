@@ -1,0 +1,30 @@
+
+
+
+
+
+div{
+ max-width: 500px;
+ height: 300px;
+ background-color: rgba(18, 16, 16, 0.932);
+ border-radius: 20px;
+
+ margin:100px auto;
+ box-shadow: 0 0 8px 2px rgba(18, 16, 16, 0.932);
+}
+div h1{
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    font-size: 2.3em;
+    font-family:'Lilito One',cursive;
+    
+}
+
+div p{
+    padding:10px;
+    font-size: 1.4em;
+    font-family: 'Pacifico', cursive;
+    color:#fff;
+    /* font:italic bold arial,serif; */
+}
