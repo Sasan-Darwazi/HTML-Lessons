@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+h1{
+    text-align:center;;
+    width: 260px;
+    height: 130px;
+    margin:20px auto;
+    background-color: aliceblue;
+    color:black;
+    border:2px inset pink;
+    border-radius: 20px;
+    padding:10px;
+
+}
+h1:hover{
+    color:#fff;
+    background-color: crimson;
+    transition: 1s ease;
+}
+
+ul {
+    list-style-type:circle;;
+    /* list-style-type:disc; */
+    /* list-style-type:square; */
+    /* list-style-type:none; */
+    list-style-position: inside;
+    padding: 10px 10px;
+    margin:20px;
+
+    background-color: rgba(2, 2, 2, 0.944);
+    color:#fff;
+    font-size: 1.3em;
+    width: 750px;
+    height: 120px;
+    border-radius: 20px;;
+}
+
+
+
+.secondList{
+    list-style-type:disc;
+    font-size: 1.4em;;
+    background-color: transparent;
+    color:black;
+
+}
