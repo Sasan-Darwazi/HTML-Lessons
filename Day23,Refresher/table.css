@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+table {
+    width: 80%;
+    margin:20px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+
+ td{
+    margin:10px;
+    padding:10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+th{
+    margin:10px;
+    padding:10px;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: rgb(192, 191, 189);
+}
+
+tr:nth-of-type(odd){
+    background-color: black;
+    color:#FFF;
+}
+
+tr:nth-of-type(even){
+    background-color: gray;
+    color:#fff;
+}
+
+

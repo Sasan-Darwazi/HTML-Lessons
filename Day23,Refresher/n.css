@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+
+}
+
+body{
+background-color: darkgray;
+}
+
+ul  {
+    background-color: transparent;
+    height: 60px;
+}
+
+
+li {
+    display: inline-block;
+    margin:10px;
+    padding:10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.8em;
+    display: inline-block;
+    padding:10px;
+    border:1px solid black;
+    text-align: center;
+    border-radius: 15px;;
+    width: 130px;
+    height: 60px;
+
+
+
+}
+
+a:link{
+    color:red;
+
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover{
+    background-color: bisque;
+    color:black;
+    transition: 0.7s ease;
+}
+
+a:active{
+    background-color:#fff;
+    color:rgb(60,60,60);
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
