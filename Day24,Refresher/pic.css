@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.items{
+    margin:10px;
+    width: 300px;;
+    border: 2px solid black;
+    border-radius: 10px;
+    float: right;
+
+}
+
+div.items img{
+    width: 100%;;
+    height: auto;
+}
+
+.firstdiv{
+    padding:10px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.secondiv{
+    padding:10px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
