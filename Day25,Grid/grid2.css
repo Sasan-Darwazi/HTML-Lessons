@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+
+.main{
+    max-width: 700px;;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:100px auto;
+    grid-auto-rows: 100px;;
+    grid-gap:5px;
+}
+
+
+.item{
+    border:2px outset pink;
+    border-radius: 10px;
+    padding:10px;
+    text-align: justify;
+}
+
+
+.item:nth-of-type(4){
+    grid-column:1/5;
+}
+
+
+.item:nth-of-type(5){
+    grid-column:1/5;
+}
+
+.item:nth-of-type(6){
+    grid-column:1/5;
+}
