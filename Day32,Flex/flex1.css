@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* use height when you set the display to column */
+    /* height: 800px; */
+
+    /* flex-wrap: wrap; */
+    /* height: 700px; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: start; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+
+
+    /* align-items: center; */
+    /* align-items: end; */
+    /* align-items:center; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: start; */
+}
+
+.item {
+    width: 200px;
+    margin:10px;
+    border:3px solid #333;
+    background-color: #dfdfdf;
+}
+
+
+.item:nth-of-type(1){
+    min-height: 100px;
+    /* flex-shrink: make bigger the item */
+    /* flex-shrink: 0; */
+
+/* for making grow the item in large dispaly */
+    /* flex-grow: 1; */
+}
+
+.item:nth-of-type(2){
+    min-height: 200px;
+
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+}
+
+
+
+.item:nth-of-type(3){
+    min-height: 300px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+
+.item:nth-of-type(4){
+    min-height: 200px;
+    flex-grow:3;
+    flex-basis:0;
+    align-self:end;
+}
