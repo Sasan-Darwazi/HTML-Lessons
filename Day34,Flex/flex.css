@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.main {
+    display: flex;
+    /* height: 700px;;
+    flex-wrap: wrap; */
+    /* jusitfy content: is for main access, like horizonta line*/
+
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+    /* if you want to change the layout of your desing, use cross access */
+    /* align-items: start; */
+    align-items: center;
+    /* align-items: end; */
+    /* align-items: stretch; */
+
+    /* align-content is used for multiline content, when you add more items,
+    do not forget to add height. */
+    /* align-content: center; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: space-between; */
+    /* align-content:space-evenly; */
+    /* align-content: space-around; */
+}
+
+
+.item{
+    border:1px solid black;
+    width:200px;
+    margin:10px;
+    border-radius: 10px;;
+    padding:10px;
+}
+
+.item:nth-of-type(1){
+    min-height: 100px;
+}
+
+.item:nth-of-type(1){
+    min-height: 100px;
+}
+
+
+.item:nth-of-type(3){
+    min-height: 100px;
+}
+
+.item:nth-of-type(1){
+    min-height: 100px;
+}
+
+
+.item:nth-of-type(1){
+    min-height: 100px;
+}
