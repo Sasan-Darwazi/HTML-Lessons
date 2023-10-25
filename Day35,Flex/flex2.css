@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+
+
+.main {
+    display: flex;
+    /* flex-direction: column; */
+
+    /* height: 800px;; */
+
+    /* in the main access, if you to be showd, decalir a heigth */
+    /* justify-content: center; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+
+    /* align-item: is in cross access; */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+    background-color: crimson;
+}
+
+
+.item{
+    width: 200px;
+    border:1px solid black;
+    margin:10px;
+    border-radius: 10px;
+    padding:10px;
+    background-color:rgb(135, 147, 151);
+    
+}
+
+.item:nth-of-type(1){
+    height: 100px;
+    /* it keeps its size when the window is gotten small */
+    flex-shrink: 0;
+    align-self:end;;
+}
+
+.item:nth-of-type(2){
+    height: 200px;
+    flex-grow: 2;
+    flex-basis: 0;
+    /* if you want the items to be center,start,end, you need to 
+    declair the align-self, instead of the justify-content, or align-items */
+
+align-self: center;
+
+}
+
+
+
+.item:nth-of-type(3){
+    height: 300px;
+    /* flex-grow: makes the items bigger */
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+/* remeber that, if you use flex-grow on items, one items gets bigger
+next to the other one, but if you give them the actual bigger size,
+need to perform or declair the flex-basis to remove the already width if
+it has declaired */
