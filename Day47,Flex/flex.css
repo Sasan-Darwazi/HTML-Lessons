@@ -1,0 +1,30 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+.main{
+    display: flex;
+    /* margin:100px auto; */
+    flex-wrap: wrap;
+    background-color: gray;
+    padding:10px;
+}
+
+.item{
+    width: 260px;
+    border:outset 1px green;
+    padding:10px;
+    border-radius: 10px;
+    margin:1px;
+    text-align: center;
+    font-family: garamond;
+    font-size: 1.5em;
+}
+
+.item:hover{
+    background-color: crimson;
+    color: #fff;;
+    transition: all 0.7s ease;
+}
