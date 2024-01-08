@@ -1,0 +1,128 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+
+:root{
+    --main-color:#6400e4;
+    --box-shadow: 0px 3px 3px 3px rgba(0,0,0,0.34);
+    --hover-shadow: 0px 4px 4px 0px rgba(3,3,3,0.561);
+    --nav-shadow: 0px 0px 10px 0px rgba(0,0,0,0.100);
+    --color:#fff;
+    --back-color:black;
+}
+
+body{
+    background-color:#a28089
+}
+
+.main{
+    width: 50%;
+    margin:100px auto;
+    border-radius: 15px;
+    background:var(--color);
+    box-shadow: var(--box-shadow);
+    padding:50px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin:25px 0;
+}
+
+form input[type="text"], input[type="password"]{
+    height: 50px;
+    border:1px solid #8b8b8b9d;
+    border-radius: 10px;
+    padding:10px;
+    font-size: 22px;
+    font-family: garamond;
+    padding:10px;
+}
+
+form label{
+    margin:8px;
+    font-family: garamond;
+}
+
+a{
+    text-decoration: none;
+    color:var(--main-color);
+    font-family: garamond;
+    font-size: 18px;
+ margin:10px 4px;   
+}
+
+
+form input[type="submit"]{
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    margin:10px 0;
+    font-family: garamond;
+    font-size: 20px;
+    background:var(--main-color);
+    color:var(--color);
+    font-weight: bold;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+}
+
+P::before, p::after{
+    content:"";
+    height: 2px;
+    display: block;
+    background-color: #8b8b8b9d;
+    margin:0px 4px;
+
+
+}
+
+P{
+    color:#8b8b8b9d;
+    font-weight: bold;
+    font-family: garamond;
+    font-size: 18px;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button{
+    height: 50px;;
+    width: 20%;
+    margin:10px 10px;
+    border-radius: 15px;
+    border:none;
+    background:var(--main-color);
+    
+    box-shadow: var(--box-shadow);
+    font-family: garamond;
+    font-size: 1.2em;
+    color:var(--color);
+    cursor: pointer;
+}
