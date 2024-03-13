@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@600&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --main-color:#6400e4;
+    --box-shadow: 0px 3px 3px 3px rgba(0,0,0,0.34);
+    --hover-shadow: 0px 4px 4px 0px rgba(3,3,3,0.561);
+    --nav-shadow: 0px 0px 10px 5px rgba(0,0,0,0.9);
+    --color:#fff;
+    --back-color:black;
+
+    --purple500: #281154;
+    --purple300: #270082;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+    --max-wdith: 1200px;
+
+}
+
+
+
+
+
+html,
+body{
+
+
+    font-family: 'Roboto', sans-serif;
+
+    
+    line-height: 1.4;
+    font-weight: 300;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;;
+}
+
+body{
+    display: flex;
+}
+
+
+header{
+    border:1px solid #ccc;
+    height: auto;
+    background-image: linear-gradient(to bottom right, #FF6868, #FF68DE);
+   
+}
+
+nav h1{
+    font-size: 25px;
+    border-bottom: 1px solid  var(--purple300);
+    font-weight: 500px;
+    padding:10px;;
+}
+
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li {
+   
+    margin-top: 10px;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+   
+    padding:10px;
+    text-transform: 1px;
+    color:black;
+    border-bottom:1px solid var(--purple500);
+    transition: 0.3s all ease-in-out;
+}
+
+
+nav ul li:hover{
+   background-image: linear-gradient(to bottom right, #403F44, #1E1B32);
+   color: var(--color);
+   transition: 0.3s all ease-in-out;
+}
+
+
+/* Main */
+
+main{
+    padding:50px;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+section article{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    font-family: 'Caveat', cursive;
+}
+
+section h2{
+    font-size: 25px;
+    font-weight: 200px;
+    border-bottom: 1px solid var(--purple500);
+    margin-bottom: 50px;
+    padding-bottom:10px;;
+}
+
+
+section ul{
+    margin-left: 20px;;
+}
+
+section ul li{
+    margin-bottom: 10px;
+}
+
+
+code{
+    background-color: #ccc;
+    padding:10px;;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+@media (max-width: 768px){
+body{
+    flex-direction: column;
+
+
+}
+
+header{
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+}
