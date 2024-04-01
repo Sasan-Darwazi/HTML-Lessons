@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --main-color:#6400e4;
+    --box-shadow: 0px 3px 3px 3px rgba(0,0,0,0.34);
+    --hover-shadow: 0px 4px 4px 0px rgba(3,3,3,0.561);
+    --nav-shadow: 0px 0px 10px 5px rgba(0,0,0,0.9);
+    --color:#fff;
+    --back-color:black;
+
+    --purple500: #281154;
+    --purple300: #270082;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+    --max-wdith: 1200px;
+
+}
+
+
+body{
+    height: 100vh;
+    background-image: url(cover.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sidebar{
+    display: flex;
+    position: relative;
+}
+
+
+.sidebar .wrapper{
+    position: fixed;
+    top:0;
+    left: 0;;
+    width: 140px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: var(--box-shadow);
+    padding:20px 0;
+    background-color:rgb(83, 83, 85);
+    transition: width 0.3s ease;
+}
+
+
+.sidebar .wrapper:hover{
+    width: 260px;;
+}
+.sidebar .wrapper .logo{
+    display: flex;
+    align-items: center;
+    padding:25px 10px 15px;
+}
+ .logo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: 0.5s all ease-in-out;
+}
+
+.logo img:hover{
+    border: 1px solid var(--purple500);
+    border-radius: 50%;
+    transition: 0.7s all ease-in-out;
+}
+
+.sidebar .wrapper .logo h2{
+    font-weight: 600;
+    margin-left: 10px;
+    font-style: 1.15rem;
+    display: none;
+}
+
+.sidebar:hover .logo h2{
+    display: block;
+}
+
+
+
+.sidebar .links li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+
+.links li{
+    display: flex;
+    align-items: center;
+}
+
+.links h4{
+    font-size: 1.6rem;
+    color: var(--back-color);
+    font-family: "EB Garamond", serif;
+    letter-spacing: 1px;
+    margin:20px 0;;
+    transition: 0.3s all ease-in-out;
+    display: none
+}
+
+
+
+
+.links h4:hover{
+    border:none;
+    background-color: #5f5f5f;
+    padding:10px;
+    border-radius: 10px;;
+    transition: 0.2s all ease-in-out;
+
+}
+
+.sidebar:hover .links h4{
+    display: block;
+}
+
+
+
+
+ .links li a {
+    color: var(--back-color);
+    text-decoration: none;;
+    padding: 10px 0;;
+    font-weight: 500;
+    white-space: nowrap;
+    font-size: 20px;
+    /* display: none; */
+}
+
+.links .fa, .fa-solid{
+    font-size: 20px;
+    margin:0 10px;;
+    
+}
+
+.sidebar:hover .links li a{
+    display: block;
+}
+
+.links  li:hover  {
+    background-color: #fff;
+    border-radius: 5%;
+    border-radius: 5px;
+}
+
+
+.links li #bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links li #bottom:hover{
+    background-color: #fff;
+    border-radius: 5%;
+    border-radius: 5px;
+    font-weight: 500;
+    
+}
+
+
+/* 
+
+
+
+
+
+.links li a{
+    color: var(--color);
+    text-decoration: none;
+    padding:10px;
+    font-weight: 500;
+    white-space: nowrap;
+    font-size: 24px;;
+}
+
+.links .fa, .fa-solid{
+   font-size: 20px;
+   margin:0 10px;;
+}
+
+.links li:hover a{
+    background-color: #fff;;
+    border-radius: 5%;
+    color: var(--back-color);
+} */
