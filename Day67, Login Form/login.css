@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+:root{
+    --main-color:#6400e4;
+    --box-shadow: 0px 3px 3px 3px rgba(0,0,0,0.34);
+    --hover-shadow: 0px 4px 4px 0px rgba(3,3,3,0.561);
+    --nav-shadow: 0px 0px 10px 5px rgba(0,0,0,0.9);
+    --color:#fff;
+    --back-color:black;
+
+    --purple500: #281154;
+    --purple300: #270082;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+    --max-wdith: 1200px;
+
+}
+body{
+    min-height: 100vh;
+    background:#eee;
+    display: flex;;
+}
+
+.container{
+    width: 500px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.container form{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border:none;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: var(--box-shadow);
+}
+
+
+.container form h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "EB Garamond", serif;
+}
+
+.container form label{
+    font-size: 18px;;
+}
+.container form .form-control{
+    width: 100%;
+    height: 40px;;
+    border-radius: 10px;
+    border: 1px solid silver;
+    margin:10px 0 18px 0;
+    padding:10px;
+}
+
+.container form .form-control:hover{
+    border: 1px solid var(--purple300);
+}
+
+.container form .form-group a{
+    text-decoration: none;
+    font-size: 18px;;
+    font-family: "EB Garamond", serif;
+    color: var(--back-color);
+}
+
+.container form .form-group a:hover{
+    opacity: .8;
+}
+
+
+.container form .btn{
+margin-left: 50%;
+transform: translate(-50%);
+width: 130px;
+height: 50px;
+margin-top: 10px;
+border: none;
+outline: none;
+border-radius: 10px;;
+background-color: crimson;
+font-size: 22px;;
+font-weight: 600;
+font-family: "EB Garamond", serif;
+color: #fff;;
+cursor: pointer;
+transition: 0.5s all ease-in-out;
+}
+
+
+.container form .btn:hover{
+    opacity: .7;;
+    transition: 0.1s all ease-in-out;
+}
+/* body{
+    min-height: 100vh;
+    background:#eee;
+    display: flex;
+}
+
+.container{
+    margin:auto;
+    width: 500px;
+    max-width: 90%;
+}
+
+.container form{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding:20px;
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+}
+
+
+.container form h1{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: "EB Garamond", serif;
+}
+
+.container form label {
+    font-size: 18px;;
+}
+
+.container form .form-control{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid silver;
+    background-color: white;
+    margin:10px 0 18px 0;
+    padding:10px;
+}
+
+.container form .form-control:hover{
+    border: 1px solid var(--purple300);
+}
+
+
+.container form .form-group a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;;
+    font-family: "EB Garamond", serif;
+    color: var(--back-color);
+}
+
+.container form .form-group a:hover{
+    opacity: .7;
+}
+
+.container form .btn{
+  margin-left: 50%;
+  transform: translate(-50%);
+
+  width: 120px;
+  height: 50px;
+  border:none;
+  outline: none;
+  border-radius: 10px;;
+  background-color: crimson;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;;
+  font-family: "EB Garamond", serif;
+}
+
+
+.container form .btn:hover{
+    transition: 0.6s all ease-in-out;
+    box-shadow: var(--box-shadow);
+    border: 1px solid var(--purple300);
+    opacity: .7;
+} */
