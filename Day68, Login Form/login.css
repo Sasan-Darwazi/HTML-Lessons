@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+:root{
+    --main-color:#6400e4;
+    --box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.34);
+    --hover-shadow: 0px 4px 4px 0px rgba(3,3,3,0.561);
+    --nav-shadow: 0px 0px 10px 5px rgba(0,0,0,0.9);
+    --color:#fff;
+    --back-color:black;
+
+    --purple500: #281154;
+    --purple300: #270082;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+    --max-wdith: 1200px;
+
+}
+
+body{
+    min-height: 100vh;
+background:#eee;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+}
+
+.container  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    max-width: 90%;
+    margin: auto;
+    background-color: #c4bcbc;
+    box-shadow: var(--box-shadow);
+    padding:20px;
+    border: none;
+    border-radius: 10px;;
+    
+}
+
+
+
+.container .title-header header{
+
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--back-color);
+    font-size: 1.9em;
+    font-weight: 600;
+}
+
+
+.container form .input-field{
+    width: 100%;
+    height: 40px;;
+    border: none;
+    outline: none;
+    font-size: 15px;;
+    border-radius: 30px;;
+    margin-bottom: 10px;;
+    padding:0 10px;
+    font-family: "EB Garamond", serif;
+    transition: 0.3s;
+    box-shadow: var(--box-shadow);
+}
+
+
+.container form .input-field:hover{
+    transform: scale(1.05,1);
+    
+}
+
+::placeholder{
+    font-weight: 600;
+    color: #222;
+}
+
+
+.container form .forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;;
+}
+
+
+.container form .forgot section{
+    display: flex;
+    align-items: center;
+    font-size: 18px;;
+    color: #555;
+
+}
+
+
+#check{
+    margin-right: 10px;;
+}
+label {
+    color: #000;
+}
+label:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    opacity: .7;
+}
+
+section a{
+color:#222
+}
+
+
+.container form .input-submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;;
+}
+
+.container form .input-submit button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    padding:10px;;
+    margin-bottom: 20px;
+    background-color: var(--back-color);
+    color: var(--color);
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+button:hover{
+    opacity: .8;
+    transform: scale(1.05, 1);
+}
+
+.container form .input-submit p{
+    font-size: 18px;
+    color: #222;
+   
+}
+
+
+.container form .input-submit a{
+    font-size: 18px;
+    text-decoration: none;;
+    color: #222;
+    font-weight: 600;
+}
+
+.container form .input-submit a:hover{
+    text-decoration: underline;
+    color: #000;
+    
+}
