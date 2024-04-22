@@ -1,0 +1,127 @@
+
+:root{
+    --main-color:#6400e4;
+    --box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.34);
+    --hover-shadow: 0px 4px 4px 0px rgba(3,3,3,0.561);
+    --nav-shadow: 0px 0px 10px 5px rgba(0,0,0,0.9);
+    --color:#fff;
+    --back-color:black;
+
+    --purple500: #281154;
+    --purple300: #270082;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+    --max-wdith: 1200px;
+
+}
+
+
+
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 100px auto;;
+    max-width: 700px;;
+    grid-gap: 5px;
+    grid-auto-rows: 100px;
+    
+}
+
+
+.item{
+    border: 1px solid silver;
+    border-radius: 10px;;
+    outline: 0;
+    padding:10px;
+    box-shadow: var(--box-shadow);
+}
+
+.item:hover{
+    border: 1px solid var(--purple500);
+}
+
+ .item .items{
+    width: 100%;
+    
+    background-color: var(--back-color);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+   
+
+}
+
+.item .items ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:10px;
+    padding:10px;
+}
+
+.item .items ul li{
+    list-style: none;
+}
+
+.item .items ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--color);
+    font-weight: 500;
+}
+
+
+.item .items ul li a:hover{
+    border-bottom: 1px solid rgb(253, 212, 137);
+    opacity: .8;
+}
+
+
+.item:nth-of-type(1){
+    grid-column: 1/ 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+.item:nth-of-type(2){
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-image: linear-gradient(to bottom right,
+    #403f44, #1e1b32);
+    color: var(--color);
+    font-size: 18px;;
+}
+
+.item:nth-of-type(3){
+    background-image: linear-gradient(to bottom right,
+    #ff6868, #ff68de);
+    color: var(--color);
+    font-size: 18px;;
+}
+
+
+.item:nth-of-type(4){
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: crimson;
+    color: white;
+    font-size: 18px;
+}
+
+
+.item:nth-of-type(5){
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color: aqua;
+    color: black;
+    font-size: 18px;;
+}
