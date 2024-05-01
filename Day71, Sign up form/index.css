@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+:root{
+    --main-color:#6400e4;
+    --box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.34);
+    --hover-shadow: 0px 4px 4px 0px rgba(3,3,3,0.561);
+    --nav-shadow: 0px 0px 10px 5px rgba(0,0,0,0.9);
+    --color:#fff;
+    --back-color:black;
+
+    --purple500: #281154;
+    --purple300: #270082;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+    --max-wdith: 1200px;
+
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #380036, #0CBABA);
+}
+
+
+.container{
+    max-width: 700px;
+    padding:20px;
+    margin: 0 20px;
+    box-shadow: var(--box-shadow);
+    background-color: #380036;
+    border-radius: 10px;;
+    overflow: hidden;
+    
+}
+
+.container h2{
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    text-align: left;
+    color: #fff;
+    margin: 10px 0;;
+}
+
+.container .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+
+
+.container .input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15 px;;
+}
+
+.input-box:nth-child(2n){
+    justify-content: end;
+}
+
+
+.input-box label, .gender-title{
+    width: 95%;
+    color: #fff;
+    font-weight: 600;
+    margin: 10px 0;;
+}
+
+.gender-title{
+    font-size: 18px;;
+}
+
+
+.input-box input{
+    height: 40px;
+    width: 95%;
+    padding:0 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.input-box input:is(:focus,:valid){
+    box-shadow: var(--box-shadow);
+}
+
+.gender label{
+    margin: 0 5px;
+    padding: 0 20px 0 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.gender label, .gender input{
+    cursor: pointer;
+}
+
+
+.alert p{
+    font-size: 16px;;
+    font-weight: 500;
+    color: #fff;
+    padding:10px;
+}
+
+
+.alert a{
+    color: #fff;
+    text-decoration: none;
+    /* margin: 4px; */
+    padding:5px;
+    transition: 0.3s all ease-in-out;
+    color: skyblue;
+
+}
+
+
+a:hover{
+    font-size: 17px;
+    text-decoration: underline;
+    color: #bd0bb8;
+    transition: 0.3s all ease-in-out;
+}
+
+
+.main-button button{
+    width: 100%;
+    
+    height: 60px;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.8em;
+    padding:5px;
+    margin-top: 10px;
+    display: block;
+    background-image: linear-gradient(to right, #aa076b, #61045f);
+
+    color: #fff;;
+    font-family: 'Acme', sans-serif;
+
+    /* transition: 0.4s all ease-in-out; */
+}
+
+.main-button button:hover{
+    background-image: linear-gradient(to right, #61045f, #aa076b);
+
+    transition: 0.6s all ease-in-out;
+}
