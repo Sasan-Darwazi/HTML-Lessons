@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+:root{
+    --main-color:#6400e4;
+    --box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.34);
+    --hover-shadow: 0px 4px 4px 0px rgba(3,3,3,0.561);
+    --nav-shadow: 0px 0px 10px 5px rgba(0,0,0,0.9);
+    --color:#fff;
+    --back-color:black;
+
+    --purple500: #281154;
+    --purple300: #270082;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+}
+
+
+section{
+    position: relative;
+
+    min-height: 100vh;
+    background: #121321;
+    width: 100%;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+
+section::before{
+    content: "";
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    transform: translate(-150px, -100px);
+    background: linear-gradient(90deg, #9c27b0, #f3f5f5);;
+}
+
+
+
+section::after{
+    content:"";
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    transform:translate(150px, 100px);
+    background: linear-gradient(90deg, #9c27b0, #f3f5f5);;
+
+}
+
+.main{
+    position: relative;
+    width: 420px;
+    height: 290px;
+    z-index: 100;
+}
+
+
+.main .card{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    background:rgba(255, 255, 255, 0.1);
+    box-shadow: var(--box-shadow);
+    padding:20px;
+    border: 1px solid rgb(152, 151, 151);
+}
+
+
+.front-face header,
+.front-face .logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.front-face header{
+    justify-content: space-between;
+}
+.front-face .logo img{
+    width: 48px;;
+}
+
+
+.front-face  .chip{
+    width: 50px;
+    /* border-radius: 20px; */
+    border: none;
+    outline: none;
+}
+
+
+.logo h5{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 10px;
+    font-family: garamond;
+}
+
+
+.card-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+ 
+.name-number .number, .name{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: garamond;
+    /* padding:2px 0; */
+    margin-top: 10px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 18px;;
+}
+
+.valid-title, .valid-date{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: garamond;
+    padding:2px 0;
+    margin-top: 10px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
