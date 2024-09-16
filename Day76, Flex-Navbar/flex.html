@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+
+    <!-- <header>
+        <nav>
+        <div class="logo"><a href="#">Web Nav Creative</a></div>
+
+            <ul class="nav_links">
+
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Generalization</a></li>
+                <li><a href="#">About & Contact US</a></li>
+            </ul>
+        </nav>
+
+        <a href="#" class="btn"><button>Get Started</button></a>
+    </header> -->
+
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">Web Nav Creative</a></div>
+            
+            <ul class="nav_links">
+                <li><a href="">Overview</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Schemes</a></li>
+                <li><a href="">Contact US
+            
+
+                </a></li>
+            </ul>
+
+            <a href="#" class="btn"><button>Get Started</button></a>
+
+
+            <div class="toggle-btn">
+                <!-- <i class="fa-solid fa-chart-bar"></i> -->
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown-list open ">
+            <li><a href="">Overview</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Schemes</a></li>
+            <li><a href="">Contact US</a></li>
+            <li><button>Get Started</button></li>
+        </div>
+    </header>
+    <script>
+        const toggleBtn = document.querySelector(".toggle-btn");
+
+        const toggleBtnIcon = document.querySelector(".toggle-btn i");
+        const dropDown = document.querySelector(".dropdown-list");
+
+        toggleBtn.onclick = function(){
+            dropDown.classList.toggle('open')
+            const isOpen =  dropDown.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
+
+</body>
+
+</html>

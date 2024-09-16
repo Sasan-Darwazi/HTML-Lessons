@@ -1,0 +1,233 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#6400e4;
+    --box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.34);
+    --hover-shadow: 0px 4px 4px 0px rgba(3,3,3,0.561);
+    --nav-shadow: 0px 0px 10px 0px rgba(0,0,0,0.100);
+    --color:#fff;
+    --back-color:black; 
+    border-width: 5px;
+}
+
+body{
+    background-image: url(Picture/pexels-eberhardgross-1421903.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed ;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+header{
+    padding: 0 2rem;;
+
+    position: relative;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    height: 100px;;
+}
+
+
+.logo a, li, button{
+    font-family: "Caveat", cursive;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+
+.logo a{
+    text-decoration: none;
+    /* color: orange; */
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0 auto;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+    
+}
+
+.logo a:hover{
+    transform: scale(1.04);
+    color: orange;
+}
+
+
+.navbar .nav_links{
+   list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding:0 10px;
+}
+
+
+.nav_links li a{
+    text-decoration: none;
+    font-size: 18px;
+
+    color: #fff;
+    padding:0 10px;
+    cursor: pointer;
+
+    transition: 0.9s all ease-in-out;
+}
+
+
+.nav_links li a:hover{
+    color: #ccc;
+    border-bottom: 1px solid rgb(20, 220, 23);
+    ;
+    transform: scale(1.08);
+}
+
+button{
+    padding: 0.2rem 1rem;
+
+    border-radius: 18px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    
+    background-color: orange;
+    color: black;
+    transition: 0.5s all ease-in-out;
+}
+
+button:hover{
+    padding:5px auto;
+
+    border: 1px solid #ccc;;
+    transform: scale(1.05);
+}
+
+.toggle-btn{
+font-size: 2rem;
+color: #fff;
+cursor: pointer;
+display: none;
+}
+
+
+.dropdown-list{
+    position: absolute;
+    top:75px;
+    right: 2rem;;
+    width: 300px;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+
+    backdrop-filter: blur(15px);
+    border-radius: 18px;
+    /* padding:0.7rem; */
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+
+.dropdown-list li{
+list-style: none;
+display: flex;;
+justify-content: center;
+align-items: center;
+padding:0.7rem;
+
+}
+
+
+.dropdown-list li a{
+    text-decoration: none;;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s all ease-in-out;
+}
+
+.dropdown-list li a:hover{
+    color: orange;
+    border-bottom: 1px solid #ccc;
+    transform: scale(1.04);
+}
+
+
+.dropdown-list button{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s all ease-in-out;
+}
+
+.dropdown-list button:hover{
+    border: 1px solid #ccc;
+    transform: scale(1.01);
+}
+
+
+/* 
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.items{
+    border: 1px solid orange;
+    background-color: white;
+} */
+@media (max-width:992px){
+    .navbar .nav_links,
+    .navbar .btn{
+        display: none;
+    }
+    .navbar .logo{
+        font-size: 0.8rem;
+    }
+
+    .toggle-btn{
+        display: block;
+        font-size: 2rem;;
+        cursor: pointer;
+        transition: 0.5s all ease-in-out;
+    }
+
+    .toggle-btn:hover{
+        scale: (0.5);
+        border-bottom: 1px solid orange;
+        border-top: 1px solid orange;
+    }
+
+    .dropdown-list{
+        display: block;
+    }
+}
+
+
+@media (max-width:576px){
+    .dropdown-list{
+        left: 2rem;
+        width: unset;
+    }
+
+    .toggle-btn{
+        font-size: 1.7rem;
+    }
+
+    .navbar .logo a{
+        font-size: 1.4em
+    }
+}
