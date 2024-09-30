@@ -1,0 +1,47 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.box{
+    border: 1px solid black;
+    width: 180px;
+    height: 100px;
+    padding:10px;
+    border-radius: 10px;;;
+}
+
+
+#box-1{background-color: blue;
+color: #fff;
+position: relative;
+top: 49px;
+z-index: -1;
+/* visibility: hidden;*\
+/* will hide the element but will show its empty space */
+}
+
+
+
+#box-2{
+    background-color: crimson;
+    position: relative;
+    top: 14px;;
+    z-index: -1;
+/* display: none; */
+/* will hide the element and the space */
+
+}
+
+
+
+#box-3{background-color: black;;
+color: white;
+
+/* Z-index only work with position: relative, absolute, sticky, and fixed */
+}
+#box-4{background-color: yellow;
+
+}
