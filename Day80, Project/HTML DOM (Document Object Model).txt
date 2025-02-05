@@ -1,0 +1,52 @@
+HTML DOM (Document Object Model)
+The HTML DOM is a programming interface that represents the structure of a web page in a way that programming languages like JavaScript can understand and manipulate.
+
+Think of it as a tree of objects where each part of your HTML document (elements, attributes, test) is represented as a node, allowing you to change or interact with the content and structure of the page.
+
+What Does the HTML DOM Lok Like?
+
+The document is the root.
+HTML tags like <html>, <head>, and <body> are branches.
+Attributes, text, and other elements are the leaves.
+
+
+
+Why DOM is Required?
+
+Dynamic Content Updates: without reloading the page, the DOM allows content updates (E.g.: from validation, AJAX responses).
+
+User Interaction: it makes your webpage interactive (e.g.: responding to button clicks, form submission).
+
+Flexibility: Developers can add, modify, or remove elements and styles in real time.
+
+
+How does the DOM Work?
+The DOM connects your webpage to JavaScript, allowing you to:
+Access elements (like finding and <h1> tag).
+Modify content (like changing the text of a <p> tag).
+React to event (like a button click).
+Create or remove elements dynamically.
+
+Properties of the DOM:
+
+Node-Based: everything in the DOM is represented as a node (e.g.: element nodes, text nodes, attribute nodes).
+
+Hierarchical: the DOM has a parent-child relationship forming a tree structure.
+
+Live: changes made to the DOM using JavaScript are immediately reflected on the web page.
+
+
+Commonly Used DOM Methods
+
+Methods:
+getElementById(id): select an element by its ID.
+getElementsByclassName(class): select all elements with a given class.
+querySelectorAll(select or): select all matching elements.
+createElement(tag): Create a new HTML element.
+appendChild(node): Adds a child node to an element.
+remove(): Removes an element from the DOM.
+addEventListener(event fn): Attaches an event handler to an element
+
+ 
+
+
