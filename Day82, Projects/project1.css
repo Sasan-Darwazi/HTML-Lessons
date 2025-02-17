@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+html,
+body{
+margin:0;
+height: 100%;
+font-size: 18px;
+font-family: garamond;
+letter-spacing: 0.5px;;
+line-height: 1.8em;
+font-weight: 500;
+color: #666;;
+}
+
+
+.p-img1{
+    min-height: 100%;
+    background-image: url(img/21054.jpg);
+}
+
+.p-img2{
+    min-height: 400px;
+    background-image: url(img/alone-surreal-dream-fishes-moon-travel-explorer-3840x2160-1058.jpg);
+}
+
+.p-img3{
+    min-height: 400px;
+   background-image: url(img/moon-girl-dream-lake-bicycle-surreal-evening-3508x2480-2738.jpg);
+}
+
+.p-img4{
+    min-height: 400px;
+background-image: url(img/ship-moon-upside-down-surreal-cloudy-sky-stars-sunset-3000x2205-4546.jpg);
+}
+
+.p-img1, .p-img2, .p-img3, .p-img4{
+    margin: 10px 0;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.p-text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 1.8em;
+}
+
+.text-bg{
+    width: 100%;
+    height: 100%;
+    padding:15px;
+    border-radius: 15px;
+  background-color: rgba(48, 47, 47, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+
+
+
+
+
+.section {
+    padding:50px 80px;
+    text-align: center;
+}
+
+
+.dark{
+    background-color: #282e34;
+    color: #e4e2e2;;
+}
+
+.light{
+    background-color: #fff;
+    color: #282e34;
+
+}
+

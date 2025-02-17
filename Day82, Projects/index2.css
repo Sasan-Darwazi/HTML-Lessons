@@ -1,0 +1,128 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;;
+}
+
+
+body{
+    background-color: #800080
+}
+
+.apply-box{
+    margin: 0 auto;;
+
+    margin-top: 50px;
+    padding:20px;
+    max-width:500px;
+    background-color: #008080;
+    box-shadow: 5px 3px 5px rgba(10, 5, 4, 0.6);
+    border-radius: 15px;
+}
+
+
+h2{
+    font-size: 1.5em;
+    font-family: garamond;
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.5px;;
+}
+
+span{
+    font-family: garamond;
+    font-size: 14px;
+    font-weight: #ccc;
+    margin-left: 5px;;
+}
+
+
+
+
+.form-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    gap:8px;
+}
+
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+}
+
+
+label{
+    font-size: 16px;
+    font-family: garamond;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+input,
+select,
+textarea{
+    padding: 10px 10px;
+    font-family: garamond;
+    font-size: 14px;
+    border: 1px solid  #8b8585;
+    border-radius: 10px;;
+
+}
+
+input, select, textarea:focus{
+    outline-color: crimson;
+}
+
+.text_control{
+grid-column-start: 1;
+grid-column-end: 3;
+}
+
+.text_control, label, textarea{
+    width: 100%;
+}
+
+
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+
+button{
+    background-color: navy;
+
+    padding:10px 15px;
+    font-size: 18px;
+    font-family: garamond;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color: #fff;;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;;
+    transition: 0.7s ease-in;
+}
+
+
+button:hover{
+    transition: 0.7s ease-out;
+    background-color: crimson;
+
+}
+
+button:focus{
+    outline-color: #a896a8;
+}
